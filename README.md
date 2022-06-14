@@ -1,3 +1,3 @@
 # swiftui-color
 
-A description of this package.
+Creating SwiftUI.Color from hex color.
