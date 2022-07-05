@@ -8,8 +8,7 @@ extension SwiftUI.Color {
   /// - Parameter hex: A hex string, can either contain # or not
   public init(
     _ colorSpace: Color.RGBColorSpace = .sRGB,
-    hexString: String,
-    _dummy_colorLiteral: UIColor? = nil
+    hexString: String
   ) {
     var hex =
     hexString.hasPrefix("#")
@@ -46,8 +45,7 @@ extension SwiftUI.Color {
   public init(
     _ colorSpace: Color.RGBColorSpace = .sRGB,
     hexInt: Int,
-    opacity: CGFloat = 1,
-    _dummy_colorLiteral: UIColor? = nil
+    opacity: CGFloat = 1
   ) {
     
     self = .init(
